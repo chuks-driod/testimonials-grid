@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ 
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(229, 239, 245);
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+    height: 100vh;
+    max-width: 800px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-nav1 {
+    display: flex;
+}
+
+.daniel-clifford {
+    background-color: hsl(263, 55%, 52%);
+    padding: 16px;
+    margin: 0 16px 0 0;
+    border: hidden;
+    border-radius: 5px;
+}
+
+.daniel-clifford .svg-icon {
+    position: absolute;
+    top: 14%;
+    right: 55%;   
+}
+
+
+.daniel-clifford h4 {
+    color:  hsl(210, 46%, 95%);
+    position: relative;
+}
+
+.daniel-clifford p {
+    color: hsl(0, 0%, 81%);
+    font-size: 10px;
+    margin: 20px 0 0 0;
+}
+
+.jonathan-walters {
+    background-color: hsl(217, 19%, 35%);
+    padding: 16px;
+    border: hidden;
+    border-radius: 5px;
+}
+
+.jonathan-walters h4 {
+    color:  hsl(210, 46%, 95%);
+}
+
+.jonathan-walters p {
+    color: hsl(0, 0%, 81%);
+    font-size: 10px;
+    margin: 16px 0 5px 0;
+}
+ 
+.content-nav2 {
+    display: flex;
+}
+
+.jeanette-harmon {
+    background-color: hsl(0, 0%, 100%);
+    padding: 16px;
+    margin: 16px 16px 0 0;
+    border: hidden;
+    border-radius: 5px;
+}
+
+.jeanette-harmon h4 {
+    color: hsl(0, 1%, 32%);
+}
+
+.jeanette-harmon p {
+    color: hsl(0, 0%, 81%);
+    margin: 16px 0 5px 0;
+    font-size: 10px;
+}
+
+.patrick-abrams {
+    background-color:  hsl(219, 29%, 14%);
+    color: white;
+    padding: 16px;
+    margin: 16px 0 0 0;
+    border: hidden;
+    border-radius: 5px;
+}
+
+.patrick-abrams h4 {
+    color: hsl(0, 17%, 91%);
+}
+
+.patrick-abrams p {
+    color: hsl(0, 0%, 81%);
+    margin: 16px 0 5px 0;
+    font-size: 10px;
+}
+
+.kira-whittle {
+    padding: 16px;
+    margin-left: 16px;
+    border: hidden;
+    border-radius: 5px;
+    background-color: white;
+    width: 605px;
+}
+
+.kira-whittle h4 {
+    color: hsl(0, 1%, 32%);
+}
+
+.kira-whittle p {
+    color: hsl(0, 0%, 81%);
+    font-size: 10px;
+    margin: 16px 0 5px 0;
+}
+
+td img {
+    width: 25px;
+    margin-right: 8px;
+    border: hidden;
+    border-radius: 50%;
+}
+
+.td {
+    color: hsl(0, 24%, 96%);
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.td1 {
+    color: hsl(0, 0%, 50%);
+}
+
+tr span {
+    color: hsl(0, 0%, 81%);
+    display: block;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    body {
+        display: block;
+        height: 200vh;
+        padding:40px 8px
+    }
+
+    .main-section {
+        display: block;
+    }
+
+    .content {
+        flex-basis: 90%;
+        max-width: 480px;
+    }
+
+    .content-nav1 {
+        flex-wrap: wrap;
+    }
+
+    .daniel-clifford {
+        margin: 16px 0;
+    }
+
+    .daniel-clifford .svg-icon {
+        top: 6%;
+        right: 20%;
+    }
+    .content-nav2 {
+        flex-wrap: wrap;
+    }
+
+    .jeanette-harmon {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .kira-whittle {
+        margin: 16px 0;
+        width: auto;
+    }
+} 
